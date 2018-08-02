@@ -1,2 +1,12 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+*/.bash_history
+
+*/*.csv
+*/*.csv.gz
+*/*.txt
+
+*/.kaggle/*
+
+
