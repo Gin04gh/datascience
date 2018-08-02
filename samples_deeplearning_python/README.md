@@ -24,6 +24,18 @@ See https://github.com/NVIDIA/nvidia-docker
 Start commands are
 
 ```
-docker build .
-docker run --runtime=nvidia -v `pwd`:/home -it nvidia/cuda bash 
+docker build -t samples_deeplearning_python .
+```
+
+User container image is https://github.com/ufoym/deepo  
+If use jupyter notebook, 
+
+```
+docker run --runtime=nvidia -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it samples_deeplearning_python jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
+```
+
+If use bash,
+
+```
+docker run --runtime=nvidia -v `pwd`:/tmp_work -w=/tmp/work --rm -it samples_deeplearning_python bash
 ```
