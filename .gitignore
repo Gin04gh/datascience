@@ -9,4 +9,6 @@
 
 */.kaggle/*
 
-
+samples_deeplearning_python/mnist-original.mat
+samples_deeplearning_python/mldata
+samples_deeplearning_python/result
