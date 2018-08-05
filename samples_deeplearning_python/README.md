@@ -1,6 +1,6 @@
 # samples_deeplearning_python
 
-## 概要
+## Description
 
 Pythonによるディープラーニング関連のサンプルコード集.  
 基本的にjupyter notebookで実行プログラムと結果を保存する.  
@@ -26,7 +26,7 @@ cudaバージョン
 !nvcc -V
 ```
 
-## 実行
+## How to run
 
 Use nvidia-docker.  
 Set up commands are
@@ -48,13 +48,14 @@ docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
 
 See https://github.com/NVIDIA/nvidia-docker
 
-Start commands are
+Start command is
 
 ```
 docker build -t samples_deeplearning_python .
 ```
 
-User container image is https://github.com/ufoym/deepo  
+Using container image is https://github.com/ufoym/deepo  
+
 If use jupyter notebook, 
 
 ```
