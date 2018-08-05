@@ -34,16 +34,11 @@ docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
 
 See https://github.com/NVIDIA/nvidia-docker  
 
-Start command is
+Start commands are
 
 ```
 docker build -t pilotnet_visualbackprop .
-```
-
-Using container image is https://github.com/ufoym/deepo  
-
-Notebook start command is
-
-```
 docker run --runtime=nvidia -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it pilotnet_visualbackprop jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```
+
+Using container image is https://github.com/ufoym/deepo
