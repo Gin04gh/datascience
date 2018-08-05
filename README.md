@@ -43,6 +43,8 @@ juliaによるデータサイエンス関連のサンプルコード集.
 
 ## pilotnet_visualbackprop
 
+PilotNet + Visual back prop の実装.
+
 ## stock_price_data_warehouse
 
 ## estimate_smr_bayesian_modeling
