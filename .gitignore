@@ -9,6 +9,12 @@
 
 */.kaggle/*
 
+
+
+# for samples_deeplearning_python
 samples_deeplearning_python/mnist-original.mat
 samples_deeplearning_python/mldata
 samples_deeplearning_python/result
+
+# for pilotnet_visualbackprop
+pilotnet_visualbackprop/result_pilotnet
