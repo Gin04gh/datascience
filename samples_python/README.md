@@ -1,6 +1,6 @@
 # samples_python
 
-## 概要
+## Description
 
 Pythonによるデータサイエンス関連のサンプルコード集.  
 基本的にjupyter notebookで実行プログラムと結果を保存する.  
@@ -16,7 +16,7 @@ Pythonバージョン
 !pip freeze
 ```
 
-## 実行
+## How to run
 
 ```
 docker build -t samples_python .
