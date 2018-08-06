@@ -12,8 +12,9 @@ docker run -v `pwd`:/root -it -w=/root kaggle_compe_house_prices_advanced_regres
 
 ```
 # on client
+mkdir data
 chmod 600 .kaggle/kaggle.json
-kaggle competitions download -c house-prices-advanced-regression-techniques -w
+kaggle competitions download -c house-prices-advanced-regression-techniques -p data
 exit
 ```
 
