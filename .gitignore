@@ -13,5 +13,8 @@ samples_deeplearning_python/mnist-original.mat
 samples_deeplearning_python/mldata
 samples_deeplearning_python/result
 
+# for kaggle_dataset_flower_color_images
+kaggle_dataset_flower_color_images/result
+
 # for pilotnet_visualbackprop
 pilotnet_visualbackprop/result_pilotnet
