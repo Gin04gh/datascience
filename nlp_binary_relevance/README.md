@@ -2,6 +2,9 @@
 
 ## Description
 
+note about Binary Relevance Learning.  
+See http://www.aic.uniovi.es/~jdiez/Jorge_Diez/Journal_Papers_files/luaces2012a.pdf
+
 ## How to run
 
 ```
