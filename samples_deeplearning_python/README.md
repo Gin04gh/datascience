@@ -67,3 +67,10 @@ If use bash,
 ```
 docker run --runtime=nvidia -v `pwd`:/tmp_work -w=/tmp/work --rm -it samples_deeplearning_python bash
 ```
+
+Using chainer pre-trained model, for example resnet, download weight files see, https://github.com/KaimingHe/deep-residual-networks
+Make dir and put weight files to host `root/.chainer/dataset/pfnet/chainer/models/`, 
+
+```
+docker run --runtime=nvidia -v `pwd`:/tmp/work -v /root:/root -w=/tmp/work -p 8888:8888 --rm -it samples_deeplearning_python jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
+```
