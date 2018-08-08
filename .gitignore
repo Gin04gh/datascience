@@ -1,7 +1,11 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+.bash_history
 */.bash_history
+
+.DS_Store
+*/.DS_Store
 
 */data/*
 */.kaggle/*
