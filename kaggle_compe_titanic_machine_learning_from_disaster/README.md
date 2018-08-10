@@ -1,5 +1,11 @@
 # kaggle_compe_titanic_machine_learning_from_disaster
 
+## Description
+
+https://www.kaggle.com/c/titanic
+
+## How to run
+
 Get the kaggle api on my kaggle account page.  
 Set up kaggle api token file, `./.kaggle/kaggle.json`.  
 Then, build docker image and download data using kaggle-api,    
