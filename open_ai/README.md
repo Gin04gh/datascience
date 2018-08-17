@@ -2,7 +2,7 @@
 
 ## Description
 
-強化学習のサンプルコード集.
+強化学習のサンプルコード集.  
 環境は「Open AI Gym」を使う.
 
 https://gym.openai.com/
