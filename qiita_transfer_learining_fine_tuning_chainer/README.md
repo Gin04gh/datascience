@@ -1,30 +1,9 @@
-# samples_deeplearning_python
+# qiita_transfer_learining_fine_tuning_chainer
 
 ## Description
 
-Pythonによるディープラーニング関連のサンプルコード集.  
-基本的にjupyter notebookで実行プログラムと結果を保存する.  
-各ノートブックにはPythonのバージョンとライブラリバージョンおよびGPU周辺バージョンを確認できるよう以下の実行セルを含めること.
-
-Pythonバージョン
-```
-!python --version
-```
-
-ライブラリバージョン
-```
-!pip freeze
-```
-
-NVIDIAドライババージョン
-```
-!cat /proc/driver/nvidia/version
-```
-
-cudaバージョン
-```
-!nvcc -V
-```
+下記Qiitaのコード.  
+https://qiita.com/Gin04qt/items/9f9a55b5516af4576630
 
 ## How to run
 
