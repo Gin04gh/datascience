@@ -49,7 +49,7 @@ https://www.kaggle.com/gmadevs/atp-matches-dataset
 
 ## qiita_transfer_learining_fine_tuning_chainer
 
-Qiita投稿記事のコード.
+Qiita投稿記事 https://qiita.com/Gin04qt/items/9f9a55b5516af4576630 のコード.
 
 ## open_ai
 
