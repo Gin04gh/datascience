@@ -3,7 +3,9 @@
 ## Description
 
 * https://www.oreilly.co.jp/books/9784873117584/
+	* https://github.com/oreilly-japan/deep-learning-from-scratch
 * https://www.oreilly.co.jp/books/9784873118369/
+	* https://github.com/oreilly-japan/deep-learning-from-scratch-2
 
 ## How to run
 
