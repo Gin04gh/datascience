@@ -10,7 +10,7 @@
 */data/*
 */.kaggle/*
 
-
+*/mnist-original.mat
 
 # for samples_deeplearning_python
 samples_deeplearning_python/mnist-original.mat
