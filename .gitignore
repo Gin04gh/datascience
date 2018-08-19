@@ -10,8 +10,6 @@
 */data/*
 */.kaggle/*
 
-*/mnist-original.mat
-
 # for samples_deeplearning_python
 samples_deeplearning_python/mnist-original.mat
 samples_deeplearning_python/mldata
@@ -22,3 +20,6 @@ kaggle_dataset_flower_color_images/result
 
 # for pilotnet_visualbackprop
 pilotnet_visualbackprop/result_pilotnet
+
+# for zerokara_deeplearning
+zerokara_deeplearning/mnist-original.mat
