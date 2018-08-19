@@ -23,3 +23,6 @@ pilotnet_visualbackprop/result_pilotnet
 
 # for zerokara_deeplearning
 zerokara_deeplearning/mnist-original.mat
+
+# for e-stat
+e-stat/.appid
