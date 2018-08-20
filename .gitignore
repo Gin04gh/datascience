@@ -10,6 +10,9 @@
 */data/*
 */.kaggle/*
 
+# for samples_python
+samples_python/graph.pdf
+
 # for samples_deeplearning_python
 samples_deeplearning_python/mnist-original.mat
 samples_deeplearning_python/mldata
