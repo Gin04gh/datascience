@@ -74,3 +74,5 @@ Make dir and put weight files to host `root/.chainer/dataset/pfnet/chainer/model
 ```
 docker run --runtime=nvidia -v `pwd`:/tmp/work -v /root:/root -w=/tmp/work -p 8888:8888 --rm -it samples_deeplearning_python jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```
+
+if use Plotly, add jupyter notebook option `--NotebookApp.iopub_data_rate_limit=1.0e10`.
