@@ -2,29 +2,7 @@
 
 ## Description
 
-Pythonによるディープラーニング関連のサンプルコード集.  
-基本的にjupyter notebookで実行プログラムと結果を保存する.  
-各ノートブックにはPythonのバージョンとライブラリバージョンおよびGPU周辺バージョンを確認できるよう以下の実行セルを含めること.
-
-Pythonバージョン
-```
-!python --version
-```
-
-ライブラリバージョン
-```
-!pip freeze
-```
-
-NVIDIAドライババージョン
-```
-!cat /proc/driver/nvidia/version
-```
-
-cudaバージョン
-```
-!nvcc -V
-```
+CamVid Dataset, See http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
 
 ## How to run
 
@@ -72,5 +50,5 @@ Using chainer pre-trained model, for example resnet, download weight files see, 
 Make dir and put weight files to host `root/.chainer/dataset/pfnet/chainer/models/`, 
 
 ```
-docker run --runtime=nvidia -v `pwd`:/tmp/work -v /root:/root -w=/tmp/work -p 8888:8888 --rm -it samples_deeplearning_python jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
+docker run --runtime=nvidia -v `pwd`:/tmp/work -v /root:/root -w=/tmp/work -p 8888:8888 --rm -it camvid jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```
