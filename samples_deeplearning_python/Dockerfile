@@ -22,4 +22,5 @@ RUN pip install chainercv
 RUN pip install edward
 RUN pip install gensim
 RUN pip install mecab-python3
+RUN pip install plotly
 RUN pip install tqdm
