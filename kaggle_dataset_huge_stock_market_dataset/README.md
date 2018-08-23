@@ -30,3 +30,5 @@ Then, restart container,
 ```
 docker run -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it kaggle_dataset_huge_stock_market_dataset jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```
+
+if use Plotly, add jupyter notebook option `--NotebookApp.iopub_data_rate_limit=1.0e10`.1
