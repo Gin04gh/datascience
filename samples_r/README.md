@@ -1,11 +1,16 @@
 # samples_r
 
-## 概要
+## Description
 
 Rによるデータサイエンス関連のサンプルコード集.  
 基本的にjupyter notebookで実行プログラムと結果を保存する.  
+各ノートブックにはRバージョンを確認できるよう以下の実行セルを含めること.
 
-## 実行
+```
+sessionInfo()
+```
+
+## How to run
 
 ```
 docker build -t samples_r .
