@@ -68,93 +68,116 @@ datascience
 ├─samples_r............................................Rによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─.ipynb
 │
-├─samples_julia........................................
+├─samples_julia........................................juliaによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─.ipynb
 │
 ├─kaggle_compe_house_prices_advanced_regression_techiques....kaggleコンペの分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  └─notebook.ipynb..........................................分析ノート
 │
 ├─kaggle_compe_statoil_c-core_lceberg_classifier_challenge...kaggleコンペの分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  └─notebook.ipynb..........................................分析ノート
 │
 ├─kaggle_compe_titanic_machine_learning_from_disaster........kaggleコンペの分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  └─notebook.ipynb..........................................分析ノート
 │
-├─kaggle_dataset_flower_color_images...................kaggleデータセットに対する分析
+├─kaggle_dataset_flower_color_images.........................kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─auto_encoder_similarity.ipynb...........................自己符号化器
+│  ├─finetuning_vgg16.ipynb..................................ファインチューニング
+│  ├─threshold_color_hist.ipynb..............................色ヒストグラム
+│  └─transfer_leaning_vgg16.ipynb............................転移学習
 │
-├─kaggle_dataset_huge_stock_market_dataset.............kaggleデータセットに対する分析
+├─kaggle_dataset_huge_stock_market_dataset.............................kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─system_trade_dqn.ipynb............................................Deep Q-Network (DQN)
+│  ├─system_trade_ddqn.ipynb...........................................Double DQN
+│  ├─system_trade_dueling_ddqn.ipynb...................................Dueling Double DQN
+│  └─system_trade_dueling_ddqn_prioritized_experience_replay.ipynb.....Dueling Double DQN + Prioritized Experience Replay
 │
 ├─kaggle_dataset_mushroom_classification...............kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  └─bayesian_neural_network_edward.ipynb..............ベイジアンニューラルネットワークで毒キノコ分類
 │
-├─kaggle_dataset_association_of_tennis_professionals_matches....kaggleデータセットに対する分析
+├─kaggle_dataset_association_of_tennis_professionals_matches...........kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─player_strong_bayesian_modeling.ipynb.............................ベイジアンモデルで男子プロテニス強さモデリング
+│  └─player_strong_time_series_bayesian_modeling.ipynb.................ベイジアンモデルで男子プロテニス強さ時系列モデリング
 │
 ├─qiita_transfer_learining_fine_tuning_chainer.........Qiita投稿記事のソース
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  └─notebook.ipynb....................................転移学習, ファインチューニング
 │
-├─open_ai .............................................Open AI Gym に対する強化学習, 深層強化学習の実装
+├─open_ai..............................................Open AI Gym に対する強化学習, 深層強化学習の実装
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─check_brakeout.ipynb..............................Breakout環境確認
+│  ├─dqn_cnn_frozenlake.ipynb..........................Deep Q-Network (DQN) by chainer
+│  ├─dqn_nn_frozenlake.ipynb...........................Deep Q-Network (DQN) by chainer
+│  ├─dqn_pytorch_cartpole.ipynb........................Deep Q-Network (DQN) by pytorch
+│  ├─ddqn_cnn_frozenlake.ipynb.........................Double DQN by chainer
+│  ├─ddqn_nn_frozenlake.ipynb..........................Double DQN by chainer
+│  ├─ddqn_pytorch_cartpole.ipynb.......................Double DQN by pytorch
+│  └─q-learning_frozenlake.ipynb.......................Q-learning
 │
-├─e-stat ...............................................e-Stat のデータに対する分析
+├─e-stat ..............................................e-Stat のデータに対する分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  └─estimate_smr_bayesian_modeling.ipynb..............ベイジアンモデルでSMR推定
 │
-├─camvid ...............................................CamVid データセットに対する分析
+├─camvid ..............................................CamVid データセットに対する分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─.ipynb
 │
-├─stock_price_data_warehouse ...........................株価データに対する分析
+├─stock_price_data_warehouse ..........................株価データに対する分析
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─candle_stick_mpl_finance.ipynb....................ローソク足
+│  ├─moving_average.ipynb..............................移動平均
+│  ├─bollinger_band.ipynb..............................ボリンジャーバンド
+│  ├─macd.ipynb........................................MACD
+│  ├─rsi.ipynb.........................................RSI
+│  ├─stochastics.ipynb.................................ストキャスティクス
+│  ├─ichimoku.ipynb....................................一目均衡表
+│  └─compare_technical_analysis.ipynb..................テクニカル指標の比較検証
 │
-├─nlp_binary_relevance..................................自然言語処理における Binary relevance learning の実装
+├─nlp_binary_relevance.................................Binary Relevance Learning on 自然言語処理
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  ├─binary_relevance_multinomial_nb.ipynb.............マルチラベル分類
+│  ├─binary_relevance_multinomial_nb_ja.ipynb..........マルチラベル分類 (Japanese)
+│  ├─binary_relevance_sgd.ipynb........................マルチラベル分類
+│  └─compare_sentence_binary_classification.ipynb......分類器比較
 │
-├─pilotnet_visualbackprop...............................PilotNet + Visual back prop の実装
+├─pilotnet_visualbackprop..............................PilotNet + Visual back prop の実装
 │  ├─README.md
 │  ├─Dockerfile
-│  └─notebook.ipynb.....................................PilotNet + Visual back prop
+│  └─notebook.ipynb....................................PilotNet + Visual back prop
 │
-├─compare_state_space_model.............................statsmodels, pystan, PyMC3, Edward の状態空間モデルの実装
+├─compare_state_space_model............................statsmodels, pystan, PyMC3, Edward の状態空間モデルの実装
 │  ├─README.md
 │  ├─Dockerfile
-│  ├─.ipynb ..........................
+│  └─notebook.ipynb ...................................statsmodels, pystan, PyMC3, Edward の状態空間モデル
 │
-└─zerokara_deeplearning.................................
+└─zerokara_deeplearning................................『ゼロから作るDeep Learning』勉強ノート
    ├─README.md
    ├─Dockerfile
-   ├─.ipynb
-   └─.ipynb
+   └─notebook.ipynb....................................分析ノート
 ```
 
 ## Template
