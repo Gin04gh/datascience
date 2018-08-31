@@ -13,6 +13,6 @@ sessionInfo()
 ## How to run
 
 ```
-docker build -t samples_r .
+docker build -t samples_r docker/.
 docker run -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it samples_r jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```
