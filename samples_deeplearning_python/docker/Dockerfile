@@ -24,3 +24,4 @@ RUN pip install gensim
 RUN pip install mecab-python3
 RUN pip install plotly
 RUN pip install tqdm
+RUN pip install tensorflow-probability-gpu
