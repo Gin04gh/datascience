@@ -1,2 +1,1 @@
-#FROM jupyter/datascience-notebook
-FROM kaggle/julia
+FROM jupyter/datascience-notebook
