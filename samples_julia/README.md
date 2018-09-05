@@ -9,5 +9,5 @@ juliaによるデータサイエンス関連のサンプルコード集.
 
 ```
 docker build -t samples_julia docker/.
-docker run -p 8888:8888 -v `pwd`:/home/jovyan/work samples_julia
+docker run -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it samples_julia jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```
