@@ -23,6 +23,6 @@ Pythonバージョン
 ## How to run
 
 ```
-docker build -t open_ai .
+docker build -t open_ai docker/.
 docker run -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it open_ai jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```

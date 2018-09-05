@@ -18,6 +18,6 @@ Set e-stat app id file `.appid` is
 Then, 
 
 ```
-docker build -t e-stat .
+docker build -t e-stat docker/.
 docker run -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it e-stat jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```

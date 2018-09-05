@@ -37,7 +37,7 @@ See https://github.com/NVIDIA/nvidia-docker
 Start commands are
 
 ```
-docker build -t pilotnet_visualbackprop .
+docker build -t pilotnet_visualbackprop docker/.
 docker run --runtime=nvidia -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it pilotnet_visualbackprop jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
 ```
 
