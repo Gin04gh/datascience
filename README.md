@@ -59,6 +59,7 @@ datascience
 │  ├─nn_chainer_ver1.ipynb.............................ニューラルネットワーク by chainer
 │  ├─nn_chainer_ver2.ipynb.............................ニューラルネットワーク by chainer
 │  ├─gradcam.ipynb.....................................GradCAM
+│  ├─bayesian_dropout_gradcam_mnist.ipynb..............ベイジアンドロップアウト + GradCAM
 │  ├─ssd300_chainercv.ipynb............................SSD by chainercv
 │  ├─faster_rcnn_chainercv.ipynb.......................Faster R-CNN by chainercv
 │  ├─dcgan.ipynb.......................................DCGAN by chainer
@@ -109,9 +110,10 @@ datascience
 │  ├─README.md
 │  ├─docker/Dockerfile
 │  ├─auto_encoder_similarity.ipynb...........................自己符号化器
+│  ├─transfer_leaning_vgg16.ipynb............................転移学習
 │  ├─finetuning_vgg16.ipynb..................................ファインチューニング
 │  ├─threshold_color_hist.ipynb..............................色ヒストグラム
-│  └─transfer_leaning_vgg16.ipynb............................転移学習
+│  └─image_histogram.ipynb...................................画像ヒストグラム
 │
 ├─kaggle_dataset_huge_stock_market_dataset.............................kaggleデータセットに対する分析
 │  ├─README.md
