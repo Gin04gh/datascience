@@ -89,7 +89,7 @@ datascience
 ├─samples_julia........................................juliaによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─.ipynb
+│  └─distributions.ipynb...............................分布サンプル
 │
 ├─kaggle_compe_house_prices_advanced_regression_techiques....kaggleコンペの分析
 │  ├─README.md
