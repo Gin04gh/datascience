@@ -6,7 +6,7 @@ Then, build docker image and download data using kaggle-api,
 
 ```
 # on host
-docker build -t kaggle_compe_house_prices_advanced_regression_techiques .
+docker build -t kaggle_compe_house_prices_advanced_regression_techiques docker/.
 docker run -v `pwd`:/root -it -w=/root kaggle_compe_house_prices_advanced_regression_techiques bash
 ```
 
