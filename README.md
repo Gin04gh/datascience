@@ -62,6 +62,7 @@ datascience
 │  ├─bayesian_dropout_gradcam_mnist.ipynb..............ベイジアンドロップアウト + GradCAM
 │  ├─ssd300_chainercv.ipynb............................SSD by chainercv
 │  ├─faster_rcnn_chainercv.ipynb.......................Faster R-CNN by chainercv
+│  ├─yolov3_chainercv.ipynb............................YOLOv3 by chainercv
 │  ├─dcgan.ipynb.......................................DCGAN by chainer
 │  ├─tensorflow_probability_sample.ipynb...............TensorFlow Probability (Edward2)
 │  └─study_201806_tensorflow_eager.ipynb...............勉強会準備 (tensorflow eager)
