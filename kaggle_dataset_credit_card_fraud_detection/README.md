@@ -2,7 +2,6 @@
 
 ## Description
 
-https://www.kaggle.com/uciml/mushroom-classification
 
 ## How to run
 
