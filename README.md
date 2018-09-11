@@ -47,9 +47,11 @@ datascience
 │  ├─cnn_tensorflow_eager.ipynb........................CNN by tensorflow eager
 │  ├─cnn_tensorflow_ver1.ipynb.........................CNN by tensorflow (low level)
 │  ├─cnn_tensorflow_ver2.ipynb.........................CNN by tensorflow (high level)
-│  ├─attention_seq2seq.ipynb...........................Attention + Sep2Sep
+│  ├─seq2seq.ipynb.....................................Seq2Seq
+│  ├─attention_seq2seq.ipynb...........................Attention + Seq2Seq
 │  ├─sentence_classifier_cnn.ipynb.....................CNNによる文章分類
 │  ├─sentence_classifier_lstm.ipynb....................LSTMエンコーダによる文章分類
+│  ├─nnlm_abs.ipynb....................................Neural Network Language Model + Attention
 │  ├─dropout_bayesian_approximation.ipynb..............ベイジアンドロップアウト
 │  ├─dropout_bayesian_approximation_experiment.ipynb...ベイジアンドロップアウト実験
 │  ├─lstm_chainer_ver1.ipynb...........................LSTM by chainer (F.lstm)
