@@ -173,13 +173,15 @@ datascience
 │  ├─ichimoku.ipynb....................................一目均衡表
 │  └─compare_technical_analysis.ipynb..................テクニカル指標の比較検証
 │
-├─news_corpus..........................................
+├─news_corpus..........................................ニュースコーパスデータに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
 │  ├─binary_relevance_multinomial_nb.ipynb.............Binary Relevance Learning on 自然言語処理
 │  ├─binary_relevance_multinomial_nb_ja.ipynb..........Binary Relevance Learning on 自然言語処理 (Japanese)
 │  ├─binary_relevance_sgd.ipynb........................Binary Relevance Learning on 自然言語処理
-│  └─compare_sentence_binary_classification.ipynb......Binary Relevance Learning の分類器比較
+│  ├─compare_sentence_binary_classification.ipynb......Binary Relevance Learning の分類器比較
+│  ├─co-occurrence_network.ipynb.......................共起語ネットワーク
+│  └─scdv.ipynb........................................SCDV
 │
 ├─pilotnet_visualbackprop..............................PilotNet + Visual back prop の実装
 │  ├─README.md
