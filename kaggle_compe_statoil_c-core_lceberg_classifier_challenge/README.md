@@ -29,7 +29,7 @@ See https://github.com/NVIDIA/nvidia-docker
 Start command is
 
 ```
-docker build -t samples_deeplearning_python .
+docker build -t samples_deeplearning_python docker/.
 ```
 
 Using container image is https://github.com/ufoym/deepo  
