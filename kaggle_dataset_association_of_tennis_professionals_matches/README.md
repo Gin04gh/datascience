@@ -12,7 +12,7 @@ Then, build docker image and download data using kaggle-api,
 
 ```
 # on host
-docker build -t kaggle_dataset_association_of_tennis_professionals_matches .
+docker build -t kaggle_dataset_association_of_tennis_professionals_matches docker/.
 docker run -v `pwd`:/root -it -w=/root kaggle_dataset_association_of_tennis_professionals_matches bash
 ```
 
