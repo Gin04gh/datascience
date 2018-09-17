@@ -129,7 +129,8 @@ datascience
 ├─kaggle_dataset_mushroom_classification...............kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─bayesian_neural_network_edward.ipynb..............ベイジアンニューラルネットワークで毒キノコ分類
+│  ├─bayesian_neural_network_edward.ipynb..............ベイジアンニューラルネットワークで毒キノコ分類
+│  └─study_201712_edward.ipynb.........................勉強会準備 (Edwardとベイジアンニューラルネットワーク)
 │
 ├─kaggle_dataset_association_of_tennis_professionals_matches...........kaggleデータセットに対する分析
 │  ├─README.md
