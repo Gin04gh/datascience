@@ -12,7 +12,7 @@ Then, build docker image and download data using kaggle-api,
 
 ```
 # on host
-docker build -t kaggle_dataset_mushroom_classification .
+docker build -t kaggle_dataset_mushroom_classification docker/.
 docker run -v `pwd`:/root -it -w=/root kaggle_dataset_mushroom_classification bash
 ```
 
