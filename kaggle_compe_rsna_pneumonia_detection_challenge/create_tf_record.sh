@@ -1,0 +1,2 @@
+docker run --runtime=nvidia -it --rm -v $(pwd):/outdir kaggle_compe_rsna_pneumonia_detection_challenge python /outdir/create_pascal_tf_record.py --data_dir=/outdir/data/voc/ --label_map_path=/outdir/label_map.pbtxt --output_path=/outdir/result/train.record --set=train
+docker run --runtime=nvidia -it --rm -v $(pwd):/outdir kaggle_compe_rsna_pneumonia_detection_challenge python /outdir/create_pascal_tf_record.py --data_dir=/outdir/data/voc/ --label_map_path=/outdir/label_map.pbtxt --output_path=/outdir/result/val.record --set=val
