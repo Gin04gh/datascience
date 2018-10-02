@@ -1,0 +1,1 @@
+docker run --runtime=nvidia -it --rm -v $(pwd):/outdir kaggle_compe_rsna_pneumonia_detection_challenge python object_detection/legacy/train.py --logtostderr --train_dir=/outdir/result/train/ --pipeline_config_path=/outdir/ssd_mobilenet_v1_pets.config
