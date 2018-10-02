@@ -82,7 +82,8 @@ def dict_to_tf_example(data,
   Raises:
     ValueError: if the image pointed to by data['filename'] is not a valid JPEG
   """
-  img_path = os.path.join(data['folder'], image_subdirectory, data['filename'])
+  #img_path = os.path.join(data['folder'], image_subdirectory, data['filename'])
+  img_path = os.path.join(data['folder'], data['filename'])
   full_path = os.path.join(dataset_directory, img_path)
   with tf.gfile.GFile(full_path, 'rb') as fid:
     encoded_jpg = fid.read()
@@ -120,8 +121,8 @@ def dict_to_tf_example(data,
       ymax.append(float(obj['bndbox']['ymax']) / height)
       classes_text.append(obj['name'].encode('utf8'))
       classes.append(label_map_dict[obj['name']])
-      truncated.append(int(obj['truncated']))
-      poses.append(obj['pose'].encode('utf8'))
+      #truncated.append(int(obj['truncated']))
+      #poses.append(obj['pose'].encode('utf8'))
 
   example = tf.train.Example(features=tf.train.Features(feature={
       'image/height': dataset_util.int64_feature(height),
