@@ -1,0 +1,1 @@
+docker run --runtime=nvidia -it --rm -v $(pwd):/outdir kaggle_compe_rsna_pneumonia_detection_challenge python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=/outdir/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix=/outdir/result/train/model.ckpt-200000 --output_directory=/outdir/result/export/
