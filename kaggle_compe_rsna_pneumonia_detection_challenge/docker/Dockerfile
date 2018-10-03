@@ -13,6 +13,7 @@ RUN pip install --upgrade pip
 RUN pip install Cython
 RUN pip install contextlib2
 RUN pip install lxml
+RUN pip install --upgrade tensorflow-gpu==1.9
 
 RUN mkdir /tensorflow && cd /tensorflow && \
     git clone https://github.com/tensorflow/models.git && \
@@ -31,3 +32,13 @@ RUN sed -i".bak" "s/unicode(category_name, 'utf-8')/str(category_name, 'utf-8')/
 
 WORKDIR /tensorflow/models/research
 ENV PYTHONPATH $PYTHONPATH:/tensorflow/models/research:/tensorflow/models/research/slim
+
+# for Precision-Recall Curve
+# https://github.com/tensorflow/models/issues/3081
+COPY sources/eval_util.py /tmp/
+COPY sources/object_detection_evaluation.py /tmp/
+RUN cd /tensorflow/models/research && \
+    mv object_detection/eval_util.py object_detection/eval_util.py.org && \
+    cp /tmp/eval_util.py object_detection/ && \
+    mv object_detection/utils/object_detection_evaluation.py object_detection/utils/object_detection_evaluation.py.org && \
+    cp /tmp/object_detection_evaluation.py object_detection/utils/
