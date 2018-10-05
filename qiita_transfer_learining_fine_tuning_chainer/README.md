@@ -30,7 +30,7 @@ See https://github.com/NVIDIA/nvidia-docker
 Start command is
 
 ```
-docker build -t qiita_transfer_learining_fine_tuning_chainer .
+docker build -t qiita_transfer_learining_fine_tuning_chainer docker/.
 ```
 
 Using container image is https://github.com/ufoym/deepo  
