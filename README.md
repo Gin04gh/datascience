@@ -202,7 +202,8 @@ datascience
 └─zerokara_deeplearning................................『ゼロから作るDeep Learning』勉強ノート
    ├─README.md
    ├─docker/Dockerfile
-   └─notebook.ipynb....................................勉強ノート1
+   ├─notebook.ipynb....................................勉強ノート1
+   └─notebook2.ipynb...................................勉強ノート2
 ```
 
 ***Template***
