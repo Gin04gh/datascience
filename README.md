@@ -89,10 +89,10 @@ datascience
 │  ├─two_samples_welch_t_test.ipynb....................2標本間のウェルチのt検定
 │  └─two_samples_wilcoxon_test.ipynb...................2標本間のウィルコクソンの順位和検定
 │
-├─samples_julia........................................juliaによるデータサイエンス関連の実装サンプル集
+├─samples_julia........................................................juliaによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─distributions.ipynb...............................分布サンプル
+│  └─distributions.ipynb...............................................分布サンプル
 │
 ├─kaggle_compe_house_prices_advanced_regression_techiques..............kaggleコンペの分析
 │  ├─README.md
