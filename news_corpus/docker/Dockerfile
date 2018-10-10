@@ -22,3 +22,4 @@ RUN pip install --upgrade pip
 RUN pip install sklearn
 RUN pip install gensim
 RUN pip install mecab-python3
+RUN pip install xgboost
