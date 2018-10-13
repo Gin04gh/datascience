@@ -89,83 +89,83 @@ datascience
 │  ├─two_samples_welch_t_test.ipynb....................2標本間のウェルチのt検定
 │  └─two_samples_wilcoxon_test.ipynb...................2標本間のウィルコクソンの順位和検定
 │
-├─samples_julia........................................................juliaによるデータサイエンス関連の実装サンプル集
+├─samples_julia......................................................juliaによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─distributions.ipynb...............................................分布サンプル
+│  └─distributions.ipynb.............................................分布サンプル
 │
-├─kaggle_compe_house_prices_advanced_regression_techiques..............kaggleコンペの分析
+├─kaggle_compe_house_prices_advanced_regression_techiques............kaggleコンペの分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─notebook.ipynb....................................................家の価格予測モデル
+│  └─notebook.ipynb..................................................家の価格予測モデル
 │
-├─kaggle_compe_statoil_c-core_lceberg_classifier_challenge.............kaggleコンペの分析
+├─kaggle_compe_statoil_c-core_lceberg_classifier_challenge...........kaggleコンペの分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─notebook.ipynb....................................................衛星画像の氷山予測モデル
+│  └─notebook.ipynb..................................................衛星画像の氷山予測モデル
 │
-├─kaggle_compe_titanic_machine_learning_from_disaster..................kaggleコンペの分析
+├─kaggle_compe_titanic_machine_learning_from_disaster................kaggleコンペの分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─notebook.ipynb....................................................生存者の予測モデル
+│  └─notebook.ipynb..................................................生存者の予測モデル
 │
-├─kaggle_dataset_flower_color_images...................................kaggleデータセットに対する分析
+├─kaggle_dataset_flower_color_images.................................kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─auto_encoder_similarity.ipynb.....................................自己符号化器
-│  ├─transfer_leaning_vgg16.ipynb......................................転移学習
-│  ├─finetuning_vgg16.ipynb............................................ファインチューニング
-│  ├─threshold_color_hist.ipynb........................................色ヒストグラム
-│  └─image_histogram.ipynb.............................................画像ヒストグラム
+│  ├─auto_encoder_similarity.ipynb...................................自己符号化器
+│  ├─transfer_leaning_vgg16.ipynb....................................転移学習
+│  ├─finetuning_vgg16.ipynb..........................................ファインチューニング
+│  ├─threshold_color_hist.ipynb......................................色ヒストグラム
+│  └─image_histogram.ipynb...........................................画像ヒストグラム
 │
-├─kaggle_dataset_huge_stock_market_dataset.............................kaggleデータセットに対する分析
+├─kaggle_dataset_huge_stock_market_dataset...........................kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─system_trade_dqn.ipynb............................................Deep Q-Network (DQN)
-│  ├─system_trade_ddqn.ipynb...........................................Double DQN
-│  ├─system_trade_dueling_ddqn.ipynb...................................Dueling Double DQN
-│  └─system_trade_dueling_ddqn_prioritized_experience_replay.ipynb.....Dueling Double DQN + Prioritized Experience Replay
+│  ├─system_trade_dqn.ipynb..........................................Deep Q-Network (DQN)
+│  ├─system_trade_ddqn.ipynb.........................................Double DQN
+│  ├─system_trade_dueling_ddqn.ipynb.................................Dueling Double DQN
+│  └─system_trade_dueling_ddqn_prioritized_experience_replay.ipynb...Dueling Double DQN + Prioritized Experience Replay
 │
-├─kaggle_dataset_mushroom_classification...............................kaggleデータセットに対する分析
+├─kaggle_dataset_mushroom_classification.............................kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─bayesian_neural_network_edward.ipynb..............................ベイジアンニューラルネットワークで毒キノコ分類
-│  └─study_201712_edward.ipynb.........................................勉強会準備 (Edwardとベイジアンニューラルネットワーク)
+│  ├─bayesian_neural_network_edward.ipynb............................ベイジアンニューラルネットワークで毒キノコ分類
+│  └─study_201712_edward.ipynb.......................................勉強会準備 (Edwardとベイジアンニューラルネットワーク)
 │
-├─kaggle_dataset_association_of_tennis_professionals_matches...........kaggleデータセットに対する分析
+├─kaggle_dataset_association_of_tennis_professionals_matches.........kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─player_strong_bayesian_modeling.ipynb.............................ベイジアンモデルで男子プロテニス強さモデリング
-│  └─player_strong_time_series_bayesian_modeling.ipynb.................ベイジアンモデルで男子プロテニス強さ時系列モデリング
+│  ├─player_strong_bayesian_modeling.ipynb...........................ベイジアンモデルで男子プロテニス強さモデリング
+│  └─player_strong_time_series_bayesian_modeling.ipynb...............ベイジアンモデルで男子プロテニス強さ時系列モデリング
 │
-├─kaggle_dataset_credit_card_fraud_detection...........................kaggleデータセットに対する分析
+├─kaggle_dataset_credit_card_fraud_detection.........................kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─notebook.ipynb....................................................クレジットカードの不正利用予測モデル
+│  └─notebook.ipynb..................................................クレジットカードの不正利用予測モデル
 │
-├─qiita_transfer_learining_fine_tuning_chainer.........................Qiita投稿記事のソース
+├─qiita_transfer_learining_fine_tuning_chainer.......................Qiita投稿記事のソース
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─notebook.ipynb....................................................転移学習, ファインチューニング
+│  └─notebook.ipynb..................................................転移学習, ファインチューニング
 │
-├─open_ai..............................................................Open AI Gym に対する強化学習, 深層強化学習の実装
+├─open_ai............................................................Open AI Gym に対する強化学習, 深層強化学習の実装
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─check_brakeout.ipynb..............................................Breakout環境確認
-│  ├─dqn_cnn_frozenlake.ipynb..........................................Deep Q-Network (DQN) by chainer
-│  ├─dqn_nn_frozenlake.ipynb...........................................Deep Q-Network (DQN) by chainer
-│  ├─dqn_pytorch_cartpole.ipynb........................................Deep Q-Network (DQN) by pytorch
-│  ├─ddqn_cnn_frozenlake.ipynb.........................................Double DQN by chainer
-│  ├─ddqn_nn_frozenlake.ipynb..........................................Double DQN by chainer
-│  ├─ddqn_pytorch_cartpole.ipynb.......................................Double DQN by pytorch
-│  └─q-learning_frozenlake.ipynb.......................................Q-learning
+│  ├─check_brakeout.ipynb............................................Breakout環境確認
+│  ├─dqn_cnn_frozenlake.ipynb........................................Deep Q-Network (DQN) by chainer
+│  ├─dqn_nn_frozenlake.ipynb.........................................Deep Q-Network (DQN) by chainer
+│  ├─dqn_pytorch_cartpole.ipynb......................................Deep Q-Network (DQN) by pytorch
+│  ├─ddqn_cnn_frozenlake.ipynb.......................................Double DQN by chainer
+│  ├─ddqn_nn_frozenlake.ipynb........................................Double DQN by chainer
+│  ├─ddqn_pytorch_cartpole.ipynb.....................................Double DQN by pytorch
+│  └─q-learning_frozenlake.ipynb.....................................Q-learning
 │
-├─e-stat ..............................................................e-Stat のデータに対する分析
+├─e-stat ............................................................e-Stat のデータに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─using_e-stat_api_sample.ipynb.....................................e-Stat APIの使い方サンプル
-│  ├─estimate_smr_bayesian_modeling.ipynb..............................ベイジアンモデルでSMR推定
-│  └─study_201703_geographic_visualization_and_bayesian.ipynb..........勉強会準備 (地理データで階層ベイズモデル)
+│  ├─using_e-stat_api_sample.ipynb....................................e-Stat APIの使い方サンプル
+│  ├─estimate_smr_bayesian_modeling.ipynb.............................ベイジアンモデルでSMR推定
+│  └─study_201703_geographic_visualization_and_bayesian.ipynb........勉強会準備 (地理データで階層ベイズモデル)
 │
 ├─stock_price_data_warehouse ..........................株価データに対する分析
 │  ├─README.md
