@@ -160,34 +160,34 @@ datascience
 │  ├─ddqn_pytorch_cartpole.ipynb.....................................Double DQN by pytorch
 │  └─q-learning_frozenlake.ipynb.....................................Q-learning
 │
-├─e-stat ............................................................e-Stat のデータに対する分析
+├─e-stat.............................................................e-Stat のデータに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
 │  ├─using_e-stat_api_sample.ipynb....................................e-Stat APIの使い方サンプル
 │  ├─estimate_smr_bayesian_modeling.ipynb.............................ベイジアンモデルでSMR推定
 │  └─study_201703_geographic_visualization_and_bayesian.ipynb........勉強会準備 (地理データで階層ベイズモデル)
 │
-├─stock_price_data_warehouse ..........................株価データに対する分析
+├─stock_price_data_warehouse.........................................株価データに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─candle_stick_mpl_finance.ipynb....................ローソク足
-│  ├─moving_average.ipynb..............................移動平均
-│  ├─bollinger_band.ipynb..............................ボリンジャーバンド
-│  ├─macd.ipynb........................................MACD
-│  ├─rsi.ipynb.........................................RSI
-│  ├─stochastics.ipynb.................................ストキャスティクス
-│  ├─ichimoku.ipynb....................................一目均衡表
-│  └─compare_technical_analysis.ipynb..................テクニカル指標の比較検証
+│  ├─candle_stick_mpl_finance.ipynb..................................ローソク足
+│  ├─moving_average.ipynb............................................移動平均
+│  ├─bollinger_band.ipynb............................................ボリンジャーバンド
+│  ├─macd.ipynb......................................................MACD
+│  ├─rsi.ipynb.......................................................RSI
+│  ├─stochastics.ipynb...............................................ストキャスティクス
+│  ├─ichimoku.ipynb..................................................一目均衡表
+│  └─compare_technical_analysis.ipynb................................テクニカル指標の比較検証
 │
-├─news_corpus..........................................ニュースコーパスデータに対する分析
+├─news_corpus........................................................ニュースコーパスデータに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─binary_relevance_multinomial_nb.ipynb.............Binary Relevance Learning on 自然言語処理
-│  ├─binary_relevance_multinomial_nb_ja.ipynb..........Binary Relevance Learning on 自然言語処理 (Japanese)
-│  ├─binary_relevance_sgd.ipynb........................Binary Relevance Learning on 自然言語処理
-│  ├─compare_sentence_binary_classification.ipynb......Binary Relevance Learning の分類器比較
-│  ├─co-occurrence_network.ipynb.......................共起語ネットワーク
-│  └─scdv.ipynb........................................SCDV
+│  ├─binary_relevance_multinomial_nb.ipynb...........................Binary Relevance Learning on 自然言語処理
+│  ├─binary_relevance_multinomial_nb_ja.ipynb........................Binary Relevance Learning on 自然言語処理 (Japanese)
+│  ├─binary_relevance_sgd.ipynb......................................Binary Relevance Learning on 自然言語処理
+│  ├─compare_sentence_binary_classification.ipynb....................Binary Relevance Learning の分類器比較
+│  ├─co-occurrence_network.ipynb.....................................共起語ネットワーク
+│  └─scdv.ipynb......................................................SCDV
 │
 ├─pilotnet_visualbackprop..............................PilotNet + Visual back prop の実装
 │  ├─README.md
