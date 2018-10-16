@@ -189,21 +189,21 @@ datascience
 │  ├─co-occurrence_network.ipynb.....................................共起語ネットワーク
 │  └─scdv.ipynb......................................................SCDV
 │
-├─pilotnet_visualbackprop..............................PilotNet + Visual back prop の実装
+├─pilotnet_visualbackprop............................................PilotNet + Visual back prop の実装
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─notebook.ipynb....................................PilotNet + Visual back prop
+│  └─notebook.ipynb..................................................PilotNet + Visual back prop
 │
-├─compare_state_space_model............................statsmodels, pystan, PyMC3, Edward の状態空間モデルの実装
+├─compare_state_space_model..........................................statsmodels, pystan, PyMC3, Edward の状態空間モデルの実装
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─notebook.ipynb ...................................statsmodels, pystan, PyMC3, Edward の状態空間モデル
+│  └─notebook.ipynb .................................................statsmodels, pystan, PyMC3, Edward の状態空間モデル
 │
-└─zerokara_deeplearning................................『ゼロから作るDeep Learning』勉強ノート
+└─zerokara_deeplearning..............................................『ゼロから作るDeep Learning』勉強ノート
    ├─README.md
    ├─docker/Dockerfile
-   ├─notebook.ipynb....................................勉強ノート1
-   └─notebook2.ipynb...................................勉強ノート2
+   ├─notebook.ipynb..................................................勉強ノート1
+   └─notebook2.ipynb.................................................勉強ノート2
 ```
 
 ***Template***
