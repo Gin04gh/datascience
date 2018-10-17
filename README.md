@@ -69,25 +69,25 @@ datascience
 │  ├─tensorflow_probability_sample.ipynb...............TensorFlow Probability (Edward2)
 │  └─study_201806_tensorflow_eager.ipynb...............勉強会準備 (tensorflow eager)
 │
-├─samples_r............................................Rによるデータサイエンス関連の実装サンプル集
+├─samples_r..........................................................Rによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─bayesian_statistical_modeling_rstan.ipynb.........ベイジアンモデル by rstan
-│  ├─chi-squared_test.ipynb............................カイ二乗検定
-│  ├─fisher_exact_test.ipynb...........................フィッシャーの正確確率検定
-│  ├─kernel_density_estimation.ipynb...................カーネル密度推定
-│  ├─kolmogorov-smirnov_test.ipynb.....................コルモゴロフ・スミルノフ検定
-│  ├─multiple_linear_regression_analysis.ipynb.........重回帰分析
-│  ├─non-correlation_test.ipynb........................無相関検定
-│  ├─principal_component_analysis.ipynb................主成分分析
-│  ├─random_forest.ipynb...............................ランダムフォレスト
-│  ├─shapiro-wilk_test.ipynb...........................シャピロ・ウィルク検定
-│  ├─support_vector_machine.ipynb......................サポートベクトルマシン
-│  ├─t-stats_confidence_interval.ipynb.................t統計量による母平均の信頼区間
-│  ├─two_samples_f_test.ipynb..........................2標本間のF検定
-│  ├─two_samples_t_test.ipynb..........................2標本間のt検定
-│  ├─two_samples_welch_t_test.ipynb....................2標本間のウェルチのt検定
-│  └─two_samples_wilcoxon_test.ipynb...................2標本間のウィルコクソンの順位和検定
+│  ├─bayesian_statistical_modeling_rstan.ipynb.......................ベイジアンモデル by rstan
+│  ├─chi-squared_test.ipynb..........................................カイ二乗検定
+│  ├─fisher_exact_test.ipynb.........................................フィッシャーの正確確率検定
+│  ├─kernel_density_estimation.ipynb.................................カーネル密度推定
+│  ├─kolmogorov-smirnov_test.ipynb...................................コルモゴロフ・スミルノフ検定
+│  ├─multiple_linear_regression_analysis.ipynb.......................重回帰分析
+│  ├─non-correlation_test.ipynb......................................無相関検定
+│  ├─principal_component_analysis.ipynb..............................主成分分析
+│  ├─random_forest.ipynb.............................................ランダムフォレスト
+│  ├─shapiro-wilk_test.ipynb.........................................シャピロ・ウィルク検定
+│  ├─support_vector_machine.ipynb....................................サポートベクトルマシン
+│  ├─t-stats_confidence_interval.ipynb...............................t統計量による母平均の信頼区間
+│  ├─two_samples_f_test.ipynb........................................2標本間のF検定
+│  ├─two_samples_t_test.ipynb........................................2標本間のt検定
+│  ├─two_samples_welch_t_test.ipynb..................................2標本間のウェルチのt検定
+│  └─two_samples_wilcoxon_test.ipynb.................................2標本間のウィルコクソンの順位和検定
 │
 ├─samples_julia......................................................juliaによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
