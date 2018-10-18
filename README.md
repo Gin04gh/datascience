@@ -47,27 +47,27 @@ datascience
 │  ├─cnn_tensorflow_eager.ipynb........................CNN by tensorflow eager
 │  ├─cnn_tensorflow_ver1.ipynb.........................CNN by tensorflow (low level)
 │  ├─cnn_tensorflow_ver2.ipynb.........................CNN by tensorflow (high level)
-│  ├─seq2seq.ipynb.....................................Seq2Seq
-│  ├─attention_seq2seq.ipynb...........................Attention + Seq2Seq
-│  ├─sentence_classifier_cnn.ipynb.....................CNNによる文章分類
-│  ├─sentence_classifier_lstm.ipynb....................LSTMエンコーダによる文章分類
-│  ├─nnlm_abs.ipynb....................................Neural Network Language Model + Attention
-│  ├─dropout_bayesian_approximation.ipynb..............ベイジアンドロップアウト
-│  ├─dropout_bayesian_approximation_experiment.ipynb...ベイジアンドロップアウト実験
-│  ├─lstm_chainer_ver1.ipynb...........................LSTM by chainer (F.lstm)
-│  ├─lstm_chainer_ver2.ipynb...........................LSTM by chainer (L.LSTM)
-│  ├─mnist_classifier_3d_gradcam_plotly.ipynb..........GradCAMをPlotlyで可視化
-│  ├─mnist_classifier_3d_t-sne_plotly.ipynb............中間層ベクトルのt-SNEをPlotlyで可視化
-│  ├─nn_chainer_ver1.ipynb.............................ニューラルネットワーク by chainer
-│  ├─nn_chainer_ver2.ipynb.............................ニューラルネットワーク by chainer
-│  ├─gradcam.ipynb.....................................GradCAM
-│  ├─bayesian_dropout_gradcam_mnist.ipynb..............ベイジアンドロップアウト + GradCAM
-│  ├─ssd300_chainercv.ipynb............................SSD by chainercv
-│  ├─faster_rcnn_chainercv.ipynb.......................Faster R-CNN by chainercv
-│  ├─yolov3_chainercv.ipynb............................YOLOv3 by chainercv
-│  ├─dcgan.ipynb.......................................DCGAN by chainer
-│  ├─tensorflow_probability_sample.ipynb...............TensorFlow Probability (Edward2)
-│  └─study_201806_tensorflow_eager.ipynb...............勉強会準備 (tensorflow eager)
+│  ├─seq2seq.ipynb...................................................Seq2Seq
+│  ├─attention_seq2seq.ipynb.........................................Attention + Seq2Seq
+│  ├─sentence_classifier_cnn.ipynb...................................CNNによる文章分類
+│  ├─sentence_classifier_lstm.ipynb..................................LSTMエンコーダによる文章分類
+│  ├─nnlm_abs.ipynb..................................................Neural Network Language Model + Attention
+│  ├─dropout_bayesian_approximation.ipynb............................ベイジアンドロップアウト
+│  ├─dropout_bayesian_approximation_experiment.ipynb.................ベイジアンドロップアウト実験
+│  ├─lstm_chainer_ver1.ipynb.........................................LSTM by chainer (F.lstm)
+│  ├─lstm_chainer_ver2.ipynb.........................................LSTM by chainer (L.LSTM)
+│  ├─mnist_classifier_3d_gradcam_plotly.ipynb........................GradCAMをPlotlyで可視化
+│  ├─mnist_classifier_3d_t-sne_plotly.ipynb..........................中間層ベクトルのt-SNEをPlotlyで可視化
+│  ├─nn_chainer_ver1.ipynb...........................................ニューラルネットワーク by chainer
+│  ├─nn_chainer_ver2.ipynb...........................................ニューラルネットワーク by chainer
+│  ├─gradcam.ipynb...................................................GradCAM
+│  ├─bayesian_dropout_gradcam_mnist.ipynb............................ベイジアンドロップアウト + GradCAM
+│  ├─ssd300_chainercv.ipynb..........................................SSD by chainercv
+│  ├─faster_rcnn_chainercv.ipynb.....................................Faster R-CNN by chainercv
+│  ├─yolov3_chainercv.ipynb..........................................YOLOv3 by chainercv
+│  ├─dcgan.ipynb.....................................................DCGAN by chainer
+│  ├─tensorflow_probability_sample.ipynb.............................TensorFlow Probability (Edward2)
+│  └─study_201806_tensorflow_eager.ipynb.............................勉強会準備 (tensorflow eager)
 │
 ├─samples_r..........................................................Rによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
