@@ -38,15 +38,15 @@ datascience
 │  ├─soft_confidence_weighted_learning_ver2.ipynb......オンライン機械学習 (SCW ver.2)
 │  └─study_201804_plotly.ipynb.........................勉強会準備 (plotly)
 │
-├─samples_deeplearning_python..........................Pythonによるディープラーニング関連の実装サンプル集
+├─samples_deeplearning_python........................................Pythonによるディープラーニング関連の実装サンプル集
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─cnn_chainer_ver1.ipynb............................CNN by chainer
-│  ├─cnn_chainer_ver2.ipynb............................CNN by chainer (trainer)
-│  ├─cnn_pytorch.ipynb.................................CNN by pytorch
-│  ├─cnn_tensorflow_eager.ipynb........................CNN by tensorflow eager
-│  ├─cnn_tensorflow_ver1.ipynb.........................CNN by tensorflow (low level)
-│  ├─cnn_tensorflow_ver2.ipynb.........................CNN by tensorflow (high level)
+│  ├─cnn_chainer_ver1.ipynb..........................................CNN by chainer
+│  ├─cnn_chainer_ver2.ipynb..........................................CNN by chainer (trainer)
+│  ├─cnn_pytorch.ipynb...............................................CNN by pytorch
+│  ├─cnn_tensorflow_eager.ipynb......................................CNN by tensorflow eager
+│  ├─cnn_tensorflow_ver1.ipynb.......................................CNN by tensorflow (low level)
+│  ├─cnn_tensorflow_ver2.ipynb.......................................CNN by tensorflow (high level)
 │  ├─seq2seq.ipynb...................................................Seq2Seq
 │  ├─attention_seq2seq.ipynb.........................................Attention + Seq2Seq
 │  ├─sentence_classifier_cnn.ipynb...................................CNNによる文章分類
