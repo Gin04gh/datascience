@@ -33,10 +33,10 @@ datascience
 │  ├─decision_tree.ipynb...............................決定木
 │  ├─doc2vec_gensim.ipynb..............................doc2vec by gensim
 │  ├─multilabel_classifier_mlknn_sklearn.ipynb.........MLkNNによるマルチラベル分類
-│  ├─confidence_weighted_learning.ipynb................オンライン機械学習 (CW)
-│  ├─soft_confidence_weighted_learning_ver1.ipynb......オンライン機械学習 (SCW ver.1)
-│  ├─soft_confidence_weighted_learning_ver2.ipynb......オンライン機械学習 (SCW ver.2)
-│  └─study_201804_plotly.ipynb.........................勉強会準備 (plotly)
+│  ├─confidence_weighted_learning.ipynb..............................オンライン機械学習 (CW)
+│  ├─soft_confidence_weighted_learning_ver1.ipynb....................オンライン機械学習 (SCW ver.1)
+│  ├─soft_confidence_weighted_learning_ver2.ipynb....................オンライン機械学習 (SCW ver.2)
+│  └─study_201804_plotly.ipynb.......................................勉強会準備 (plotly)
 │
 ├─samples_deeplearning_python........................................Pythonによるディープラーニング関連の実装サンプル集
 │  ├─README.md
