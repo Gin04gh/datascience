@@ -21,6 +21,7 @@ docker run -v `pwd`:/root -it -w=/root kaggle_dataset_association_of_tennis_prof
 mkdir data
 chmod 600 .kaggle/kaggle.json
 kaggle datasets download -d gmadevs/atp-matches-dataset -p data
+unzip data/atp-matches-dataset.zip -d data
 exit
 ```
 
