@@ -21,6 +21,7 @@ docker run -v `pwd`:/root -it -w=/root kaggle_dataset_large_tennis_dataset_for_a
 mkdir data
 chmod 600 .kaggle/kaggle.json
 kaggle datasets download -d ehallmar/a-large-tennis-dataset-for-atp-and-itf-betting -p data
+unzip data/a-large-tennis-dataset-for-atp-and-itf-betting.zip -d data
 exit
 ```
 
