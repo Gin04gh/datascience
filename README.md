@@ -24,13 +24,13 @@ datascience
 │  ├─shapiro-wilk_test.ipynb...........................シャピロ・ウィルク検定
 │  ├─support_vector_machine.ipynb......................サポートベクトルマシン
 │  ├─t-stats_confidence_interval.ipynb.................t統計量による母平均の信頼区間
-│  ├─two_samples_f_test.ipynb..........................2標本間のF検定
-│  ├─two_samples_t_test.ipynb..........................2標本間のt検定
-│  ├─two_samples_welch_t_test.ipynb....................2標本間のウェルチのt検定
-│  ├─two_samples_wilcoxon_test.ipynb...................2標本間のウィルコクソンの順位和検定
-│  ├─t-sne.ipynb.......................................t-SNE
-│  ├─plotly.ipynb......................................Plotly
-│  ├─decision_tree.ipynb...............................決定木
+│  ├─two_samples_f_test.ipynb........................................2標本間のF検定
+│  ├─two_samples_t_test.ipynb........................................2標本間のt検定
+│  ├─two_samples_welch_t_test.ipynb..................................2標本間のウェルチのt検定
+│  ├─two_samples_wilcoxon_test.ipynb.................................2標本間のウィルコクソンの順位和検定
+│  ├─t-sne.ipynb.....................................................t-SNE
+│  ├─plotly.ipynb....................................................Plotly
+│  ├─decision_tree.ipynb.............................................決定木
 │  ├─doc2vec_gensim.ipynb............................................doc2vec by gensim
 │  ├─multilabel_classifier_mlknn_sklearn.ipynb.......................MLkNNによるマルチラベル分類
 │  ├─confidence_weighted_learning.ipynb..............................オンライン機械学習 (CW)
