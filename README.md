@@ -5,25 +5,25 @@
 ```
 datascience 
 │
-├─samples_python.......................................Pythonによるデータサイエンス関連の実装サンプル集
+├─samples_python.....................................................Pythonによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─bayesian_modeling_pymc3.ipynb.....................ベイジアンモデル by pymc3
-│  ├─bayesian_modeling_pystan.ipynb....................ベイジアンモデル by pystan
-│  ├─chi-squared_test.ipynb............................カイ二乗検定
-│  ├─facter_analysis.ipynb.............................因子分析
-│  ├─fisher_exact_test.ipynb...........................フィッシャーの正確確率検定
-│  ├─gaussian_mixture_model.ipynb......................混合ガウスモデル
-│  ├─kernel_density_estimation_pandas.ipynb............カーネル密度推定 by pandas
-│  ├─kernel_density_estimation_scipy.ipynb.............カーネル密度推定 by scipy
-│  ├─kolmogorov-smirnov_test.ipynb.....................コルモゴロフ・スミルノフ検定
-│  ├─multiple_linear_regression_analysis.ipynb.........重回帰分析
-│  ├─non-correlation_test.ipynb........................無相関検定
-│  ├─principal_component_analysis.ipynb................主成分分析
-│  ├─random_forest.ipynb...............................ランダムフォレスト
-│  ├─shapiro-wilk_test.ipynb...........................シャピロ・ウィルク検定
-│  ├─support_vector_machine.ipynb......................サポートベクトルマシン
-│  ├─t-stats_confidence_interval.ipynb.................t統計量による母平均の信頼区間
+│  ├─bayesian_modeling_pymc3.ipynb...................................ベイジアンモデル by pymc3
+│  ├─bayesian_modeling_pystan.ipynb..................................ベイジアンモデル by pystan
+│  ├─chi-squared_test.ipynb..........................................カイ二乗検定
+│  ├─facter_analysis.ipynb...........................................因子分析
+│  ├─fisher_exact_test.ipynb.........................................フィッシャーの正確確率検定
+│  ├─gaussian_mixture_model.ipynb....................................混合ガウスモデル
+│  ├─kernel_density_estimation_pandas.ipynb..........................カーネル密度推定 by pandas
+│  ├─kernel_density_estimation_scipy.ipynb...........................カーネル密度推定 by scipy
+│  ├─kolmogorov-smirnov_test.ipynb...................................コルモゴロフ・スミルノフ検定
+│  ├─multiple_linear_regression_analysis.ipynb.......................重回帰分析
+│  ├─non-correlation_test.ipynb......................................無相関検定
+│  ├─principal_component_analysis.ipynb..............................主成分分析
+│  ├─random_forest.ipynb.............................................ランダムフォレスト
+│  ├─shapiro-wilk_test.ipynb.........................................シャピロ・ウィルク検定
+│  ├─support_vector_machine.ipynb....................................サポートベクトルマシン
+│  ├─t-stats_confidence_interval.ipynb...............................t統計量による母平均の信頼区間
 │  ├─two_samples_f_test.ipynb........................................2標本間のF検定
 │  ├─two_samples_t_test.ipynb........................................2標本間のt検定
 │  ├─two_samples_welch_t_test.ipynb..................................2標本間のウェルチのt検定
