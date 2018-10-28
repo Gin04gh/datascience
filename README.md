@@ -163,8 +163,8 @@ datascience
 ├─e-stat.............................................................e-Stat のデータに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  ├─using_e-stat_api_sample.ipynb....................................e-Stat APIの使い方サンプル
-│  ├─estimate_smr_bayesian_modeling.ipynb.............................ベイジアンモデルでSMR推定
+│  ├─using_e-stat_api_sample.ipynb...................................e-Stat APIの使い方サンプル
+│  ├─estimate_smr_bayesian_modeling.ipynb............................ベイジアンモデルでSMR推定
 │  └─study_201703_geographic_visualization_and_bayesian.ipynb........勉強会準備 (地理データで階層ベイズモデル)
 │
 ├─stock_price_data_warehouse.........................................株価データに対する分析
