@@ -143,6 +143,11 @@ datascience
 │  ├─docker/Dockerfile
 │  └─notebook.ipynb..................................................クレジットカードの不正利用予測モデル
 │
+├─kaggle_dataset_large_tennis_dataset_for_atp_itf_betting............kaggleデータセットに対する分析
+│  ├─README.md
+│  ├─docker/Dockerfile
+│  └─.ipynb
+│
 ├─qiita_transfer_learining_fine_tuning_chainer.......................Qiita投稿記事のソース
 │  ├─README.md
 │  ├─docker/Dockerfile
