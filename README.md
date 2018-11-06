@@ -146,7 +146,7 @@ datascience
 ├─kaggle_dataset_large_tennis_dataset_for_atp_itf_betting............kaggleデータセットに対する分析
 │  ├─README.md
 │  ├─docker/Dockerfile
-│  └─.ipynb
+│  └─analysis_service_return_strength.ipynb..........................サーブ力とリターン力の因子分析
 │
 ├─qiita_transfer_learining_fine_tuning_chainer.......................Qiita投稿記事のソース
 │  ├─README.md
