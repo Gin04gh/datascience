@@ -35,3 +35,6 @@ zerokara_deeplearning/mnist-original.mat
 
 # for e-stat
 e-stat/.appid
+
+# 
+samples_deeplearning_without_gpu_python/result
