@@ -2,8 +2,6 @@
 
 ## Description
 
-下記Qiitaのコード.  
-https://qiita.com/Gin04qt/items/9f9a55b5516af4576630
 
 ## How to run
 
