@@ -9,6 +9,10 @@ docker build -t news_corpus docker/.
 run scripts,
 
 
+```
+docker run -v `pwd`:/home -w=/home -p 8888:8888 --rm -it bayes_tennis jupyter notebook --no-browser --ip=* --notebook-dir=/home
+```
+
 
 ```
 docker run -v `pwd`:/tmp/work -w=/tmp/work -p 8888:8888 --rm -it news_corpus jupyter notebook --no-browser --ip=* --notebook-dir=/tmp/work --allow-root
