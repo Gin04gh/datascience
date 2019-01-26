@@ -8,3 +8,6 @@ RUN apt-get -y install python3-tk
 RUN pip3 install --upgrade pip
 RUN pip3 install pystan
 RUN pip3 install jupyter
+
+RUN cd /home && \
+    git clone https://github.com/JeffSackmann/tennis_atp.git
