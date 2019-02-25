@@ -16,3 +16,6 @@ RUN apt-get -y install git
 
 RUN cd /home/jovyan/ && \
     git clone https://github.com/JeffSackmann/tennis_atp.git
+
+RUN echo "c.NotebookApp.password = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py && \
+    echo "c.NotebookApp.token = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
