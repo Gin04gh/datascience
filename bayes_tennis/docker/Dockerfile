@@ -19,3 +19,11 @@ RUN cd /home/jovyan/ && \
 
 RUN echo "c.NotebookApp.password = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py && \
     echo "c.NotebookApp.token = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+
+#RUN apt-get -y install xvfb libfontconfig
+#ENV WKHTMLTOPDF_VERSION 0.12.4
+#RUN wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/${WKHTMLTOPDF_VERSION}/wkhtmltox-${WKHTMLTOPDF_VERSION}_linux-generic-amd64.tar.xz
+#RUN tar vxfJ wkhtmltox-${WKHTMLTOPDF_VERSION}_linux-generic-amd64.tar.xz && \
+#    ln -s /opt/wkhtmltox/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
+#RUN apt-get -y install imagemagick
+#RUN pip install imgkit
