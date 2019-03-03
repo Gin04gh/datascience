@@ -10,8 +10,14 @@ run scripts,
 
 Step 1/3
 
+science notebook docker,
 ```
 docker run -v `pwd`:/home/jovyan/work -w=/home/jovyan/work -p 8888:8888 --rm -it bayes_tennis jupyter notebook --no-browser --ip=* --notebook-dir=/home/jovyan/work --allow-root
+```
+
+keggle dokcer,
+```
+docker run -v `pwd`:/home -w=/home -p 8888:8888 --rm -it bayes_tennis jupyter notebook --no-browser --ip=* --notebook-dir=/home --allow-root
 ```
 
 Step 2/3
