@@ -27,7 +27,7 @@ def main():
   arr_target_player = np.array([
     'Roger Federer', 'Rafael Nadal', 'Novak Djokovic',
     'Andy Murray', 'Stanislas Wawrinka', 'Juan Martin Del Potro',
-    'Kei Nishikori', 'Tomas Berdych', 'David Ferrer'
+    'Kei Nishikori'#, 'Tomas Berdych', 'David Ferrer'
   ])
 
   # target year
@@ -90,9 +90,11 @@ def main():
   GY = np.array(GY, dtype=np.int32)
 
   # estimate
+  """
   model = ''
   with open('./model_strength_ts.stan') as f:
     model = f.read()
+  """
   data = {
     'N': len(dic_target_player),
     'G': len(LW),
@@ -100,10 +102,12 @@ def main():
     'GY': GY,
     'LW': LW,
   }
-  fit = pystan.stan(model_code=model, data=data, iter=5000, chains=4)
+  #fit = pystan.stan(model_code=model, data=data, iter=5000, chains=4)
+  sm = pystan.StanModel(file='./model_strength_ts.stan')
+  fit = sm.sampling(data=data, iter=5000, chains=4)
+  #fit = sm.vb(data=data)
   la = fit.extract()
-
-  with open('./ts_result.pickle', mode='wb') as f:
+  with open('./result_strength_ts.pickle', mode='wb') as f:
     pickle.dump(la, f)
 
   # output graphs
