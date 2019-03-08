@@ -5,9 +5,8 @@ import matplotlib.pylab as plt
 from matplotlib.colors import LinearSegmentedColormap
 import pystan
 #import imgkit
-#import pickle
+import pickle
 
-"""
 def generate_cmap(colors):
     
     values = range(len(colors))
@@ -19,7 +18,6 @@ def generate_cmap(colors):
         color_list.append(( v/ vmax, c))
         
     return LinearSegmentedColormap.from_list('custom_cmap', color_list)
-"""
 
 def main():
 
@@ -80,12 +78,18 @@ def main():
   LW = np.array(LW, dtype=np.int32)
   
   # estimate
+  """
   model = ''
   with open('./model_strength.stan') as f:
     model = f.read()
 
   fit = pystan.stan(model_code=model, data={'N': len(dic_target_player), 'G': len(LW), 'LW': LW}, iter=1000, chains=4)
+  """
+  sm = pystan.StanModel(file='./model_strength.stan')
+  fit = sm.sampling(data={'N': len(dic_target_player), 'G': len(LW), 'LW': LW}, iter=1000, chains=4)
   la = fit.extract()
+  with open('./result_strength.pickle', mode='wb') as f:
+    pickle.dump(la, f)
   
   # output graphs
 
@@ -212,7 +216,7 @@ def main():
   plt.savefig('./graphs/strength_s_pf.png', bbox_inches='tight')
 
   # table strength s_pf
-
+  """
   cm = generate_cmap(['white', 'violet'])
 
   summary = np.zeros((len(arr_target_player), 4))
@@ -233,6 +237,7 @@ def main():
     pickle.dump(summary, f)
   #html = summary.render()
   #imgkit.from_string(html, './graphs/strength_s_pf_tb.png')
+  """
 
   # crostab win-lose
 
