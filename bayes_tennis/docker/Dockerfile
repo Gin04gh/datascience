@@ -3,7 +3,6 @@ FROM jupyter/datascience-notebook
 USER root
 RUN apt-get update
 RUN apt-get -y install git
-RUN apt-get -y install build-essential
 
 RUN pip install --no-cache-dir --upgrade pip
 RUN pip install --no-cache-dir --upgrade numpy==1.14.5
@@ -13,13 +12,13 @@ RUN pip install --no-cache-dir --upgrade pystan==2.17.1.0
 RUN cd /home/jovyan/ && \
     git clone https://github.com/JeffSackmann/tennis_atp.git
 
-RUN echo "c.NotebookApp.password = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py && \
-    echo "c.NotebookApp.token = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+RUN curl -L  "https://oscdl.ipa.go.jp/IPAexfont/ipaexg00301.zip" > font.zip
+RUN unzip font.zip
+RUN cp ipaexg00301/ipaexg.ttf /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/ipaexg.ttf
+RUN echo "font.family : IPAexGothic" >>  /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc
+RUN rm -r ./.cache
 
-#RUN apt-get -y install xvfb libfontconfig
-#ENV WKHTMLTOPDF_VERSION 0.12.4
-#RUN wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/${WKHTMLTOPDF_VERSION}/wkhtmltox-${WKHTMLTOPDF_VERSION}_linux-generic-amd64.tar.xz
-#RUN tar vxfJ wkhtmltox-${WKHTMLTOPDF_VERSION}_linux-generic-amd64.tar.xz && \
-#    ln -s /opt/wkhtmltox/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
-#RUN apt-get -y install imagemagick
-#RUN pip install imgkit
+RUN echo "c.NotebookApp.password = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+RUN echo "c.NotebookApp.token = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+RUN echo "c.NotebookApp.open_browser = False" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+RUN echo "c.NotebookApp.notebook_dir = '/home/jovyan/work'" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
