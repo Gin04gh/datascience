@@ -8,23 +8,32 @@ docker build -t bayes_tennis docker/.
 
 run scripts,
 
-Step 1/3
+Step 1/5 -- preprocess.py
 
-science notebook docker,
 ```
-docker run -v `pwd`:/home/jovyan/work -w=/home/jovyan/work -p 8888:8888 --rm -it bayes_tennis jupyter notebook --no-browser --ip=* --notebook-dir=/home/jovyan/work --allow-root
-```
-
-keggle dokcer,
-```
-docker run -v `pwd`:/home -w=/home -p 8888:8888 --rm -it bayes_tennis jupyter notebook --no-browser --ip=* --notebook-dir=/home --allow-root
+docker run -v `pwd`:/home/jovyan/work -w=/home/jovyan/work --rm -it bayes_tennis python preprocess.py
 ```
 
-Step 2/3
+Step 2/5 -- analyze_strength.py
 
-access [server ip adress]:8888
+```
+docker run -v `pwd`:/home/jovyan/work -w=/home/jovyan/work --rm -it bayes_tennis python analyze_strength.py
+```
 
-Step 3/3
+Step 3/5 -- analyze_strength_ts.py
 
-open `analyze.ipynb`
-and 
+```
+docker run -v `pwd`:/home/jovyan/work -w=/home/jovyan/work --rm -it bayes_tennis python analyze_strength_ts.py
+```
+
+Step 4/5 -- run jupyter notebook
+
+```
+docker run -v `pwd`:/home/jovyan/work -w=/home/jovyan/work -p 8888:8888 --rm -it bayes_tennis jupyter notebook --allow-root
+```
+
+Step 5/5 -- access jupyter notebook
+
+open <localhost:8888> with internet browser, and open `notebook.ipynb`
+
+
