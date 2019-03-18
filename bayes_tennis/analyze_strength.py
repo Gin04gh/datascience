@@ -1,6 +1,9 @@
+#import os
+#import contextlib
 import numpy as np
 import pandas as pd
 import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pylab as plt
 from matplotlib.colors import LinearSegmentedColormap
 import pystan
@@ -77,6 +80,7 @@ def main():
   sm = pystan.StanModel(file='./model_strength.stan')
   fit = sm.sampling(data={'N': len(dic_target_player), 'G': len(LW), 'LW': LW}, iter=1000, chains=4, seed=SEED)
   la = fit.extract()
+
   with open('./result_strength.pickle', mode='wb') as f:
     pickle.dump(la, f)
 
@@ -87,7 +91,7 @@ def main():
 
   # violinplot strength mu
 
-  plt.figure(figsize=(10,5))
+  #plt.figure(figsize=(10,5))
 
   for i, player in enumerate(arr_target_player):
 
