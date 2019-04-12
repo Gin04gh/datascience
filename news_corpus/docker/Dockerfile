@@ -31,3 +31,4 @@ RUN pip install chainer
 RUN pip install tqdm
 RUN pip install wordcloud
 RUN pip install pyldavis
+RUN pip install sentencepiece
