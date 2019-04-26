@@ -36,6 +36,7 @@ datascience
 │  ├─confidence_weighted_learning.ipynb..............................オンライン機械学習 (CW)
 │  ├─soft_confidence_weighted_learning_ver1.ipynb....................オンライン機械学習 (SCW ver.1)
 │  ├─soft_confidence_weighted_learning_ver2.ipynb....................オンライン機械学習 (SCW ver.2)
+│  ├─shap.ipynb......................................................SHAP
 │  └─study_201804_plotly.ipynb.......................................勉強会準備 (plotly)
 │
 ├─samples_deeplearning_python........................................Pythonによるディープラーニング関連の実装サンプル集
