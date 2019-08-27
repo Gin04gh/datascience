@@ -5,7 +5,7 @@
 ```
 datascience 
 │
-├─samples_python.....................................................Pythonによるデータサイエンス関連の実装サンプル集
+├─samples_pytho.......................................................Pythonによるデータサイエンス関連の実装サンプル集
 │  ├─README.md
 │  ├─docker/Dockerfile
 │  ├─bayesian_modeling_pymc3.ipynb...................................ベイジアンモデル by pymc3
