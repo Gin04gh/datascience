@@ -149,6 +149,9 @@ datascience
 │  ├─docker/Dockerfile
 │  └─analysis_service_return_strength.ipynb..........................サーブ力とリターン力の因子分析
 │
+├─kaggle_dataset_intel_image_classification
+│  └─visual-explanations-gradcam-gradcam-scorecam.ipynb..............Grad-CAM / Grad-CAM++ / Score-CAMの実装・比較
+│
 ├─qiita_transfer_learining_fine_tuning_chainer.......................Qiita投稿記事のソース
 │  ├─README.md
 │  ├─docker/Dockerfile
