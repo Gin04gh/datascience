@@ -155,6 +155,9 @@ datascience
 ├─kaggle_env_covid-19-predictions-bayesian-sir-japan-prefs
 │  └─covid-19-predictions-bayesian-sir-japan-prefs.ipynb.............SIRモデル（最尤推定、ベイジアン）新型コロナウイルス日本都道府県
 │
+├─kaggle_env_solving_tsp_and_vrp_by_mip_using_pulp
+│  └─solving-tsp-and-vrp-by-mip-using-pulp.ipynb.....................巡回セールスマン問題（TSP） / 運搬経路問題（VRP）をPuLPで混合整数計画問題として最適化
+│
 ├─qiita_transfer_learining_fine_tuning_chainer.......................Qiita投稿記事のソース
 │  ├─README.md
 │  ├─docker/Dockerfile
